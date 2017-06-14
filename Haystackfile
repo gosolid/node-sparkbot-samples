@@ -1,0 +1,17 @@
+{
+  "dns": [
+    {"type":"A","value": "node-sparkbot-samples"}
+  ],
+  "services": {
+    "web": {
+      "build": ".",
+      "ports": [
+        {
+          "host": 8081,
+          "container": 8080
+        }
+      ]
+
+    }
+  }
+}
